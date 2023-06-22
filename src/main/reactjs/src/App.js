@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import poimg from './9.png';
 
