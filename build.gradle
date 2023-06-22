@@ -39,12 +39,6 @@ tasks.named('test') {
    useJUnitPlatform()
 }
 
-node {
-	version = '18.16.0'
-	npmVersion = '9.5.1'
-	download = true
-}
-
 // React build 설정
 def reactAppDir = "$projectDir/src/main/reactjs"
 /*
