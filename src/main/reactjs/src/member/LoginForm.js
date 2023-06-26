@@ -48,7 +48,7 @@ function Loginform(props) {
                             placeholder='아이디' required autoFocus
                             value={myid} onChange={(e)=>setMyid(e.target.value)}/>
                         </td>
-                    </tr>
+                    </tr> 
  
                     <tr>
                         <th style={{width:'100px',backgroundColor:'#ddd'}}>비밀번호</th>
