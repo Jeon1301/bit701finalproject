@@ -12,6 +12,7 @@ ul.menu li{
   font-size: 16px;
   margin-right: 10px;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 ul.menu li a{
@@ -21,7 +22,7 @@ ul.menu li a{
 }
 
 ul.menu li:hover{
-  background-color: darkcyan;
+  background-color: rgb(90, 114, 224);
   box-shadow: 5px 5px 5px gray;
 
 }
@@ -32,7 +33,7 @@ ul.menu li a:hover{
 
 div.login{
   margin:100px 100px;
-  border: 5px solid gray;
+  border: 3px solid gray;
   width:320px;
   border-radius: 10px;
 }
