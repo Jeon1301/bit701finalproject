@@ -49,7 +49,7 @@ function Loginform(props) {
                             value={myid} onChange={(e)=>setMyid(e.target.value)}/>
                         </td>
                     </tr> 
-   
+      
                     <tr>
                         <th style={{width:'100px',backgroundColor:'#ddd'}}>비밀번호</th>
                         <td>
