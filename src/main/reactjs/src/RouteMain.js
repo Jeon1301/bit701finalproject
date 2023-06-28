@@ -6,6 +6,9 @@ import Home from './component/Home';
 import { Loginform, MemberForm, MemberList } from './member';
 import { BoardForm, BoardList } from './board';
 import BoardDetailPage from './board/BoardDetailPage';
+import ReducerComp1 from './day0627/ReducerComp1';
+import ReducerComp2 from './day0627/ReducerComp2';
+import CallBackTest from './callback/CallBackTest';
 
 
 function RouteMain(props) {
@@ -29,6 +32,13 @@ function RouteMain(props) {
                     <Route path='list/:currentPage' element={<BoardList/>}/>
                     <Route path='detail/:num/:currentPage' element={<BoardDetailPage/>}/>
                 </Route>
+
+                {/* Reducer 연습 라우터 추가 */}
+                <Route path='/reducer1' element={<ReducerComp1/>}/>
+                <Route path='/reducer2' element={<ReducerComp2/>}/>
+
+                {/* useCallback 연습 라우터 추가 */}
+                <Route path='/callback' element={<CallBackTest/>}/>
 
                 <Route path='*' element={
                     <div style={{marginLeft:'20px'}}>
